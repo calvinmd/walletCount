@@ -1,0 +1,26 @@
+{
+  "name": "wallet-count",
+  "version": "1.0.0",
+  "description": "",
+  "license": "MIT",
+  "author": "Calvin Pak",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/start.js",
+    "dev": "nodemon src/start.js",
+    "test": "tap --no-coverage  --no-esm"
+  },
+  "dependencies": {
+    "fastify": "3.16.2",
+    "html-metadata-parser": "1.0.3",
+    "lodash": "4.17.21"
+  },
+  "devDependencies": {
+    "tap": "^14.10.2",
+    "nodemon": "^2.0.1"
+  },
+  "keywords": [],
+  "eslintConfig": {
+    "sourceType": "script"
+  }
+}
